@@ -5,7 +5,7 @@
   "main": "dist/src/platzom.js",
   "scripts": {
     "build": "babel src/platzom.js -d dist",
-    "test":"mocha" // se crea el comando npm 
+    "test":"mocha"
   },
   "repository": {
     "type": "git",
