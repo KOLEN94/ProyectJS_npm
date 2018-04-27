@@ -1,0 +1,33 @@
+{
+  "name": "proyectjs_npm",
+  "version": "0.1.0",
+  "description": "traductor de idioma platzom",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test":"mocha" // se crea el comando npm 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KOLEN94/ProyectJS_npm.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "fundamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "Teofilo Rosales <breaknius@gmail.com> (https://web.facebook.com/teofilo.rosales.1)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KOLEN94/ProyectJS_npm/issues"
+  },
+  "homepage": "https://github.com/KOLEN94/ProyectJS_npm#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}
